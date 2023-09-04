@@ -225,7 +225,7 @@ export default function ViewMore() {
               </tr>
               <tr>
                 <td>Price</td>
-                <td>${allData.property_price}</td>
+                <td>£{allData.property_price}</td>
               </tr>
               <tr>
                 <td>Rent Type</td>

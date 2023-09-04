@@ -243,7 +243,7 @@ const Search = () => {
                   </div>
                   <div className="siDetails">
                     <div className="siDetailTexts">
-                      <span className="siPrice">${item.property_price}</span>
+                      <span className="siPrice">£{item.property_price}</span>
                     </div>
                   </div>
                 </div>
