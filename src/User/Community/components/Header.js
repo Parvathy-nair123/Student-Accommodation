@@ -33,7 +33,7 @@ const Header = () => {
                     Home
                   </li>
                 </Link>
-                <Link to="/Community" style={{ textDecoration: "none" }}>
+                <Link to="/Community" >
                   <li
                     className={`nav-item nav-link`}>
                     Timeline

@@ -86,7 +86,7 @@ const Favourite = () => {
           </div>
           <div className="siDetails">
             <div className="siDetailTexts">
-              <span className="siPrice">${item.property_price}</span>
+              <span className="siPrice">£{item.property_price}</span>
               <button
                 className="removeButton"
                 onClick={(event) => removeFavorite(event, item.favoriteId)}
