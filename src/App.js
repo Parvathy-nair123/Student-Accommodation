@@ -17,6 +17,7 @@ export default function App() {
       <Route path="/Landlord/*" element={<Landlord />} />
       <Route path="/*" element={<Guest />} />
       <Route path="/Community/*" element={<Community />} />
+      
     </Routes>
   )
 }

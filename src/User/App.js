@@ -8,6 +8,7 @@ import ViewMore from "./Main/pages/ViewMore";
 import Favourite from "./Main/pages/Favourite";
 import Properties from "../Common/Page/Properties";
 
+
 function App() {
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Search" element={<Search />} />
           <Route path="/ViewMore/:id" element={<ViewMore />} />
           <Route path="/Favourite" element={<Favourite />} />
+          
 
         </Routes>
         <MailList />

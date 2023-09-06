@@ -1,4 +1,5 @@
 import "../Style/mailList.css";
+import { Link } from "react-router-dom";
 
 const Maillist = () => {
   return (
@@ -7,7 +8,7 @@ const Maillist = () => {
       <span className="mailDesc">Sign up and we'll send the best deals to you</span>
       <div className="mailInputContainer">
         <input type="text" placeholder="Your Email" />
-        <button>Subscribe</button>
+        <button> <Link to={"/Community"} >Subscribe </Link></button>
       </div>
     </div>
   )
